@@ -1,10 +1,10 @@
-# 🎯 Hangman Game — Python Project
+# Hangman Game — Python Project
 
 A modular, console-based Hangman game developed in Python. The application enables users to select thematic word categories, guess hidden terms using flexible inputs (individual letters, letter sequences, or complete words), and track game statistics. Each round automatically records performance data into timestamped log files.
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 - **Thematic Categories:** Choose between Animals, Fruits, English (General), and Science (or leave blank for random selection).
 - **Flexible Guessing Modes:**
@@ -17,7 +17,7 @@ A modular, console-based Hangman game developed in Python. The application enabl
 
 ---
 
-## 🏆 Scoring System
+## Scoring System
 
 | Player Action | Points Awarded |
 | :--- | :--- |
@@ -30,7 +30,7 @@ A modular, console-based Hangman game developed in Python. The application enabl
 
 ---
 
-## 🏗️ Directory Structure
+## Directory Structure
 
 ```text
 hangman_game/
@@ -61,7 +61,7 @@ hangman_game/
 
 ---
 
-## 🚀 How to Play
+## How to Play
 
 1. Run the script:
    ```bash
@@ -73,7 +73,7 @@ hangman_game/
 
 ---
 
-## 💻 Terminal Gameplay Example
+## Terminal Gameplay Example
 
 ```text
 ============================================================
@@ -119,7 +119,7 @@ Session log saved to: game_log/game1/log.txt
 
 ---
 
-## 📝 Match Log File Example
+## Match Log File Example
 
 Each round generates an audit trail saved under `game_log/game<N>/log.txt`.
 
